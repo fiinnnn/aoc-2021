@@ -1,0 +1,8 @@
+[package]
+name = "aoc-2021"
+version = "0.1.0"
+authors = ["Finn Vos <finn@fvos.de>"]
+edition = "2018"
+build = "build.rs"
+
+[dependencies]
