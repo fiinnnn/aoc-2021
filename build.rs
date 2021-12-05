@@ -20,10 +20,7 @@ fn days(input_dir: &str) -> io::Result<Vec<u32>> {
 fn gen_solutions_mod<P: AsRef<Path>>(p: P, days: &Vec<u32>) -> io::Result<()> {
     let mut f = File::create(p)?;
 
-    writeln!(
-        f,
-        "// GENERATED ON BUILD, DO NOT EDIT"
-    )?;
+    writeln!(f, "// GENERATED ON BUILD, DO NOT EDIT")?;
 
     writeln!(f, "use crate::solver::Solver;")?;
 

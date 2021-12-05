@@ -1,8 +1,8 @@
 mod solutions;
 mod solver;
 
-use std::env;
 use crate::solutions::exec_day;
+use std::env;
 
 fn main() {
     let day = env::args()
